@@ -7,7 +7,7 @@ var http = require('http')
 var server = http.createServer(function(req, res){
     var page = req.url
     console.log(page)
-    res.end('Ok')
+    res.end('URL: '+page)
 })
 
 console.log('localhost:8000')
