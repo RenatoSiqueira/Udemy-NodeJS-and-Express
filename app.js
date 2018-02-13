@@ -45,6 +45,11 @@ server.listen(8000) */
 
 /* Lesson 1 - Chapter 8 */
 var express = require('express')
+
+/* Lesson 1 - Chapter 10 */
+var myModule = require('./external_module')
+console.log(myModule())
+
 var app = express()
 
 /* Lesson 1 - Chapter 9 */
