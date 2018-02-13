@@ -47,34 +47,15 @@ server.listen(8000) */
 var express = require('express')
 var app = express()
 
+/* Lesson 1 - Chapter 9 */
+app.set('view engine', 'ejs')
+
 app.get('/', function(req, res){
-    res.send(`
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="utf-8">
-            <title>Introdução ao NodeJS</title>
-        </head>
-        <body>
-            <h1>Página de Home</h1>
-        </body>
-    </html>
-    `)
+    res.render('site/home')
 })
 
 app.get('/contato', function(req, res){
-    res.send(`
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <meta charset="utf-8">
-            <title>Introdução ao NodeJS</title>
-        </head>
-        <body>
-            <h1>Página de Contato</h1>
-        </body>
-    </html>
-    `)
+    res.render('site/contato')
 })
 
 app.listen(8000, function(){
