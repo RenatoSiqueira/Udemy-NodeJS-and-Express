@@ -70,6 +70,9 @@ app.get('/contato', function(req, res){
 })
 */
 
-app.listen(8000, function(){
+/*app.listen(8000, function(){
     console.log('localhost:8000')
-})
+}) */
+
+// Lesson 1 - Chapter 12: Part two
+app()
