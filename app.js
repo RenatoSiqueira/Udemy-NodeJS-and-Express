@@ -44,16 +44,21 @@ server.listen(8000) */
 //#########################
 
 /* Lesson 1 - Chapter 8 */
-var express = require('express')
+//var express = require('express')
 
 /* Lesson 1 - Chapter 10 */
-var myModule = require('./external_module')
-console.log(myModule())
+//var myModule = require('./external_module')
+//console.log(myModule())
 
-var app = express()
+//var app = express()
 
 /* Lesson 1 - Chapter 9 */
-app.set('view engine', 'ejs')
+//app.set('view engine', 'ejs')
+
+//#########################
+
+/* Lesson 1 - Chapter 11 */
+var app = require('./config/server')
 
 app.get('/', function(req, res){
     res.render('site/home')
