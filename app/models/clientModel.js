@@ -14,14 +14,9 @@ var db = require('../../config/db')
 //console.log(conn())
 
 module.exports = function(){
-    this.all = function(){
+    this.all = function(retorno){
         var conn = db()
-        conn.query('select * from clientes', function(err, results){
-            console.log(results, err)
-        })
-        return [
-            {name:'Paulo', email:'paulo@email.com'}
-        ]
+        return conn.query('select * from clientes', retorno)
     }
 
     return this

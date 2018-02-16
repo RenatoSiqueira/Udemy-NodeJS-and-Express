@@ -5,8 +5,9 @@ var clientModel = require('../models/clientModel')()
 module.exports = function(app){
     app.get('/', function(req, res){
         //console.log(clientModel.all())
-        var clientList = clientModel.all()
-        res.render('site/home', {clients:clientList})
+        clientModel.all(function(err, results){
+            res.render('site/home', {clients:results})
+        })        
     })
     
     app.get('/contato', function(req, res){
