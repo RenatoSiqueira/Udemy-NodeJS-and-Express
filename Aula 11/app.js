@@ -9,5 +9,5 @@ app.get('/', function(req, res){
 })
 
 app.listen('8000', function(){
-    console.log()
+    console.log('localhost:8000')
 })
