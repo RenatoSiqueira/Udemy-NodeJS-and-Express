@@ -1,4 +1,4 @@
-># **Introdução ao NodeJS + Express** ![progress](http://progressed.io/bar/44?title=completed "progress")
+># **Introdução ao NodeJS + Express** ![progress](http://progressed.io/bar/57?title=completed "progress")
 > ![Curso](https://udemy-images.udemy.com/course/750x422/1195840_1826.jpg)  
 > Anotações do [Introdução ao NodeJS + Express](https://www.udemy.com/introducao-ao-node-js-express), do [GuiaCódigo - Guilherme Ferreira](https://www.udemy.com/introducao-ao-node-js-express/#instructor-1)
 
@@ -15,9 +15,9 @@
 8. [Trabalhando com Express](https://github.com/RenatoSiqueira/Udemy_Introducao_ao_NodeJS_-_Express/tree/master/Aula%2008) - 10:40
 9. [Views com EJS](https://github.com/RenatoSiqueira/Udemy_Introducao_ao_NodeJS_-_Express/tree/master/Aula%2009) - 10:36
 10. [Criando Módulos no Node JS](https://github.com/RenatoSiqueira/Udemy_Introducao_ao_NodeJS_-_Express/tree/master/Aula%2010) - 12:16
-11. Refatorando o Projeto - 08:23
-12. Separando a configuração de Rotas - 08:14
-13. Criando os Modelos do MVC - 14:59
+11. [Refatorando o Projeto](https://github.com/RenatoSiqueira/Udemy_Introducao_ao_NodeJS_-_Express/tree/master/Aula%2011) - 08:23
+12. [Separando a configuração de Rotas](https://github.com/RenatoSiqueira/Udemy_Introducao_ao_NodeJS_-_Express/tree/master/Aula%2012) - 08:14
+13. [Criando os Modelos do MVC](https://github.com/RenatoSiqueira/Udemy_Introducao_ao_NodeJS_-_Express/tree/master/Aula%2013) - 14:59
 14. Banco de Dados e Tabela Clientes - 08:30
 15. Conectando com o Banco de Dados - 07:27
 16. Separando a Conexão com o Banco - 07:39
